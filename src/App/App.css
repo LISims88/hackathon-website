@@ -1,3 +1,49 @@
+.AppContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .App {
+  flex: 1;
   text-align: center;
+}
+
+header { 
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem;
+  }
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+button {
+  background-color: #755985;
+  color: #f4ebfe;
+  font-size: large;
+  border-radius: 5pt;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  text-align: center;
+  
+}
+
+p {
+  font-size: larger;
+  margin: 0;
 }
