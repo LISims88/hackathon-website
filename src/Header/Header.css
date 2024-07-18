@@ -1,6 +1,6 @@
 button{
     background-color: #755985;
-    color: #f4ebfe;
+    color: #e8d9ba;
     font-size: large;
     border-radius: 5pt;
     margin-left: .5rem;
@@ -11,4 +11,18 @@ header{
     justify-content: space-between;
     margin-left: 1rem;
     align-items: flex-end;
+    text-align: left;
+}
+h1{
+  font-family: "Playwrite PE", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: xx-large;
+}
+h2{
+    font-family: "Playwrite PE", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;  
 }
