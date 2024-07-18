@@ -1,0 +1,14 @@
+button{
+    background-color: #755985;
+    color: #f4ebfe;
+    font-size: large;
+    border-radius: 5pt;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+header{ 
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    align-items: flex-end;
+}
