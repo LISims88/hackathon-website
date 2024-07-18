@@ -40,6 +40,11 @@ footer {
   align-items: center;
   height: 2rem;
   text-align: center;
+  font-family: "Playwrite PE", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;  
+  margin-bottom: .5rem;
   
 }
 
