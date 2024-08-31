@@ -1,3 +1,4 @@
+import About from '../About/About';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import LandingPage from '../Landing/Landing';
@@ -10,8 +11,8 @@ function App() {
       <div className="App">
           <Routes>
             <Route path='/' element={<LandingPage/>}></Route>
-            <Route path='/welcome'></Route>
-            <Route path='/about-me'></Route>
+            <Route path='/welcome' ></Route>
+            <Route path='/about-me' element={<About />}></Route>
             <Route path='/contact'></Route>
           </Routes>
       </div>
